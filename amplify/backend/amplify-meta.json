@@ -20,14 +20,18 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-llamojhaamplify-live-214749-deployment/amplify-cfn-templates/hosting/template.json",
         "logicalId": "hostingS3AndCloudFront"
       },
-      "lastPushTimeStamp": "2020-10-25T21:50:43.527Z",
+      "lastPushTimeStamp": "2020-10-25T22:58:26.382Z",
       "output": {
         "S3BucketSecureURL": "https://llamojhaamplify-20201025200737-hostingbucket-live.s3.amazonaws.com",
         "WebsiteURL": "http://llamojhaamplify-20201025200737-hostingbucket-live.s3-website-eu-west-1.amazonaws.com",
         "Region": "eu-west-1",
-        "HostingBucketName": "llamojhaamplify-20201025200737-hostingbucket-live"
+        "HostingBucketName": "llamojhaamplify-20201025200737-hostingbucket-live",
+        "CloudFrontSecureURL": "https://d2wy9v7hafpdw0.cloudfront.net",
+        "CloudFrontOriginAccessIdentity": "E38RJAGJWRQ0Q0",
+        "CloudFrontDistributionID": "E2EQGAHRH1OOO5",
+        "CloudFrontDomainName": "d2wy9v7hafpdw0.cloudfront.net"
       },
-      "lastPushDirHash": "bCCmwKyS6qUAss2aUP9g1crKCI4="
+      "lastPushDirHash": "OvxVDSqhEmX9n8hwWuSpmUsg6Gs="
     }
   }
 }
