@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-llamojhaamplify-dev-195941-authRole",
+      "UnauthRoleArn": "arn:aws:iam::398220751820:role/amplify-llamojhaamplify-dev-195941-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::398220751820:role/amplify-llamojhaamplify-dev-195941-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-llamojhaamplify-dev-195941-deployment",
+      "UnauthRoleName": "amplify-llamojhaamplify-dev-195941-unauthRole",
+      "StackName": "amplify-llamojhaamplify-dev-195941",
+      "StackId": "arn:aws:cloudformation:eu-west-1:398220751820:stack/amplify-llamojhaamplify-dev-195941/93bd2bb0-16fc-11eb-943a-0232a13cd4ee",
+      "AmplifyAppId": "d33djnycan08em"
+    }
+  },
+  "live": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-llamojhaamplify-live-214749-authRole",
+      "UnauthRoleArn": "arn:aws:iam::398220751820:role/amplify-llamojhaamplify-live-214749-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::398220751820:role/amplify-llamojhaamplify-live-214749-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-llamojhaamplify-live-214749-deployment",
+      "UnauthRoleName": "amplify-llamojhaamplify-live-214749-unauthRole",
+      "StackName": "amplify-llamojhaamplify-live-214749",
+      "StackId": "arn:aws:cloudformation:eu-west-1:398220751820:stack/amplify-llamojhaamplify-live-214749/ae240f50-170b-11eb-b425-0ad191d527b7",
+      "AmplifyAppId": "d33djnycan08em"
+    }
+  }
+}

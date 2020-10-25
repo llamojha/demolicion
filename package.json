@@ -1,0 +1,22 @@
+{
+  "name": "demolicionfm",
+  "version": "1.0.0",
+  "description": "Demolicion FM",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo start",
+    "build": "echo build"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "alvaro",
+    "llamojha",
+    "demolicion"
+  ],
+  "author": "Alvaro Llamojha",
+  "license": "ISC",
+  "dependencies": {
+  }
+}

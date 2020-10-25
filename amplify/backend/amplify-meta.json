@@ -1,0 +1,33 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-llamojhaamplify-live-214749-authRole",
+      "UnauthRoleArn": "arn:aws:iam::398220751820:role/amplify-llamojhaamplify-live-214749-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::398220751820:role/amplify-llamojhaamplify-live-214749-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-llamojhaamplify-live-214749-deployment",
+      "UnauthRoleName": "amplify-llamojhaamplify-live-214749-unauthRole",
+      "StackName": "amplify-llamojhaamplify-live-214749",
+      "StackId": "arn:aws:cloudformation:eu-west-1:398220751820:stack/amplify-llamojhaamplify-live-214749/ae240f50-170b-11eb-b425-0ad191d527b7",
+      "AmplifyAppId": "d33djnycan08em"
+    }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "service": "S3AndCloudFront",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-llamojhaamplify-live-214749-deployment/amplify-cfn-templates/hosting/template.json",
+        "logicalId": "hostingS3AndCloudFront"
+      },
+      "lastPushTimeStamp": "2020-10-25T21:50:43.527Z",
+      "output": {
+        "S3BucketSecureURL": "https://llamojhaamplify-20201025200737-hostingbucket-live.s3.amazonaws.com",
+        "WebsiteURL": "http://llamojhaamplify-20201025200737-hostingbucket-live.s3-website-eu-west-1.amazonaws.com",
+        "Region": "eu-west-1",
+        "HostingBucketName": "llamojhaamplify-20201025200737-hostingbucket-live"
+      },
+      "lastPushDirHash": "bCCmwKyS6qUAss2aUP9g1crKCI4="
+    }
+  }
+}
