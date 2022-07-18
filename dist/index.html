@@ -63,6 +63,28 @@
   gtag('config', 'G-6Z3SK73TG8');
 </script>
 
+<script type="application/javascript">
+
+  function resizeIFrameToFitContent( iFrame ) {
+      if(document.documentElement.clientWidth < 700){
+        iFrame.width  = document.documentElement.clientWidth - 48;
+      }
+  }
+
+  window.addEventListener('DOMContentLoaded', function(e) {
+
+      var iFrame = document.getElementById( 'iFrame1' );
+      resizeIFrameToFitContent( iFrame );
+
+      // or, to resize all iframes:
+      var iframes = document.querySelectorAll("iframe");
+      for( var i = 0; i < iframes.length; i++) {
+          resizeIFrameToFitContent( iframes[i] );
+      }
+  } );
+
+</script>
+
 </head>
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
@@ -116,17 +138,17 @@ body, html {
   </div>
   <div class="w3-panel">
     <div class="w3-center">
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/77UhtEf4vXgJ3sHM2DkEiN?utm_source=generator" width="650" height="630" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <iframe style="border-radius:12px" id="iFrame1" src="https://open.spotify.com/embed/playlist/77UhtEf4vXgJ3sHM2DkEiN?utm_source=generator" width="650" height="630" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
     </div>
   </div>
   <div class="w3-panel">
     <div class="w3-center">
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7zukGJ3F9uP7dratmRgkIv?utm_source=generator" width="650" height="630" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <iframe style="border-radius:12px" id="iFrame1" src="https://open.spotify.com/embed/playlist/7zukGJ3F9uP7dratmRgkIv?utm_source=generator" width="650" height="630" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
     </div>
   </div>
   <div class="w3-panel">
     <div class="w3-center">
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4JUxSdcyVPlG5z4t4FQIys?utm_source=generator" width="650" height="630" frameBorder="" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <iframe style="border-radius:12px" id="iFrame1" src="https://open.spotify.com/embed/playlist/4JUxSdcyVPlG5z4t4FQIys?utm_source=generator" width="650" height="630" frameBorder="" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
     </div>
   </div>
   <div class="w3-panel">
